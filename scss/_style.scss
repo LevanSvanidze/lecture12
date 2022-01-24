@@ -33,15 +33,12 @@ header{
         display: flex;
         justify-content: space-around;
         
-
-
-
-
         .li-a{
-            
+            font-family:'Rubik Beastly', cursive;
             font-size: 14px;
             color:#15ff00
         }
+
         .li-a:hover{
             font-size: 30px;
             color: red;
@@ -105,6 +102,7 @@ section{
         color: blue;
     }
     .s2-p-2{
+        font-family: 'Neonderthaw', cursive;
         font-size: 30px;
         color: #694724;
         margin-top: 10px;
