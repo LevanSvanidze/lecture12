@@ -1,4 +1,6 @@
-    //header//
+                // header //
+
+
 header{
     width: 1170px;
     width: 100%;
@@ -30,8 +32,13 @@ header{
     ul{
         display: flex;
         justify-content: space-around;
+        
+
+
+
 
         .li-a{
+            
             font-size: 14px;
             color:#15ff00
         }
@@ -139,9 +146,8 @@ section{
         }
         .card-orangered{
             background-color: #ff5100;
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
+
 
             .card-img-size{
                 @include card-img;
@@ -149,9 +155,8 @@ section{
         }
         .card-blue{
             background-color: #002761;
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
+
 
             .card-img-size{
                 @include card-img;
@@ -160,9 +165,8 @@ section{
         
         .card-purple{
             background-color: #ff00ff;
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
+
 
             .card-img-size{
                 @include card-img;
@@ -171,9 +175,8 @@ section{
         
         .card-lightblue{
             background-color: #0066ff;
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
+
 
             .card-img-size{
                 @include card-img;
@@ -182,9 +185,7 @@ section{
         
         .card-lightpurple{
             background-color: #a769e6;
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
 
             .card-img-size{
              @include card-img;
@@ -193,9 +194,7 @@ section{
         
         .card-red{
             background-color:rgb(114, 1, 1);
-            width: 300px;
-            height: 300px;
-            padding: 30px;
+            @include only-card;
 
             .card-img-size{
                 @include card-img;
