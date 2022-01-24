@@ -189,6 +189,7 @@ section .container img {
 }
 
 .s-2 .container-1 h2 {
+  margin-top: 10px;
   font-size: 20px;
   color: white;
   text-align: center;
