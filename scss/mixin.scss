@@ -4,7 +4,8 @@
     object-fit: cover;
 }
 @mixin only-card {
+    border-radius: 50px;
             width: 300px;
             height: 300px;
-            padding: 30px;   
-}
+            padding:0 30px;   
+        }

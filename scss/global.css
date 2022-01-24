@@ -207,6 +207,7 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
 }
 
 .s-2 .container-1 .card-orangered .card-img-size {
@@ -221,6 +222,7 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
 }
 
 .s-2 .container-1 .card-blue .card-img-size {
@@ -235,6 +237,8 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
+
 }
 
 .s-2 .container-1 .card-purple .card-img-size {
@@ -249,13 +253,15 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
+
 }
 
 .s-2 .container-1 .card-lightblue .card-img-size {
   width: 100px;
   height: 100px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .s-2 .container-1 .card-lightpurple {
@@ -263,6 +269,7 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
 }
 
 .s-2 .container-1 .card-lightpurple .card-img-size {
@@ -277,6 +284,8 @@ section .container img {
   width: 300px;
   height: 300px;
   padding: 30px;
+  border-radius: 50px;
+
 }
 
 .s-2 .container-1 .card-red .card-img-size {
