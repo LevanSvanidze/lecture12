@@ -1,3 +1,219 @@
-body{
-    background-color: red;
+    //header//
+header{
+    width: 1170px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+    color: darkslategray;
+}
+.dark{
+    background-color: rgb(44, 2, 35);
+    height: 80px;
+    
+    h1{
+        margin-left: 110px;
+        font-size: 30px;
+        color:#ff9500e3;
+    }
+    h1::before{
+        content: "web";
+        color: #3939ff;
+        cursor: pointer;
+    }
+    
+    nav{
+        width: 500px;
+        margin-left: 700px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+
+        .li-a{
+            font-size: 14px;
+            color:#15ff00
+        }
+        .li-a:hover{
+            font-size: 30px;
+            color: red;
+            width: 600;
+        }
+    }
+}
+
+
+                //section 1 start//
+
+section{
+    margin-top: 200px;
+
+    .container{
+        width: 1170px;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: space-between;
+
+
+        .p-1{
+            font-size: 40px;
+	        color: #4d2800;
+        }
+        .p-2{
+            margin-top: 30px;
+            font-size: 12px;
+            color: #474747;
+        }
+        
+        button{
+            margin-top: 100px;
+	        background-color: blue;
+	        color: white;
+	        border-radius: 20px;
+	        padding: 10px;
+	        border: none;
+        }
+        button:hover{
+            font-size: 20px;
+            background-color: rgb(44, 2, 35);
+        }
+        img{
+            width: 500px;
+            height: 450px;
+            object-fit: contain;
+        }
+    }
+}
+                //section 1 end//
+                
+                //section 2 start//
+            
+.s-2{
+    margin-top: 100px;
+
+
+    .s2-p-1{
+        font-size: 20px;
+        color: blue;
+    }
+    .s2-p-2{
+        font-size: 30px;
+        color: #694724;
+        margin-top: 10px;
+    }
+    .s2-p-3{
+        font-size: 15px;
+        margin-top: 10px;
+        color: #464601;
+    }
+    .container-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .button-2{
+            border: 1px white solid;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+
+        .button-2:hover{
+            background-color:rgb(90, 0, 71);
+            border: none;
+            color: white;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        h3{
+            margin-top: 9px;
+            color: rgb(0, 0, 0);
+            font-size: 13px;
+            text-align: center;
+        }
+        .card-orangered{
+            background-color: #ff5100;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        .card-blue{
+            background-color: #002761;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        
+        .card-purple{
+            background-color: #ff00ff;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        
+        .card-lightblue{
+            background-color: #0066ff;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        
+        .card-lightpurple{
+            background-color: #a769e6;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        
+        .card-red{
+            background-color:rgb(114, 1, 1);
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+
+            .card-img-size{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+footer{
+    margin: 100px;
 }
